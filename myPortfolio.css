@@ -500,9 +500,13 @@
 }
 .gallery-item-3 .projDesc1
 {
-   display: block;
+    display: block;
+    animation: cssAnimation 0s 0.5s forwards;
+    visibility: hidden;
 }
-
+@keyframes cssAnimation {
+    to   { visibility: visible; }
+  }
 
 
 .research
