@@ -92,10 +92,6 @@
     {
         width: 350px;
     }
-    #skillsCard1
-    {
-        width: 360px;
-    }
     #cardTitle1
     {
         font-size: 22px;
@@ -292,14 +288,18 @@
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
-}
-.skillsTable
-{
     margin: 0px 40px;
+}
+.skillsTable tr
+{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
 }
 .progress
 {
-    width: 200px;
+    width: 180px;
     height: 10px;
     background-color:  #988cb9 ;
 }
