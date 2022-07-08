@@ -110,7 +110,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* z-index: 5; */
 }
 #designation
 {
@@ -356,10 +355,6 @@
     margin: 0px 20px;
     padding: 20px 20px 0px;
     display: none;
-}
-.projDesc1 hr
-{
-    margin: 10px 0px;
 }
 .gallery
 {
