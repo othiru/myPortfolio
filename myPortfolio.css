@@ -94,6 +94,10 @@
     {
         display: none;
     }
+    .projDesc1 hr
+    {
+        margin: 5px 0px;
+    }
 }
 
 
@@ -352,6 +356,10 @@
     margin: 0px 20px;
     padding: 20px 20px 0px;
     display: none;
+}
+.projDesc1 hr
+{
+    margin: 10px 0px;
 }
 .gallery
 {
