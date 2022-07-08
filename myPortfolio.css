@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *
 {
     margin: 0px;
@@ -749,715 +748,7 @@ table td
     color: white;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-=======
-*
-{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-:root{
-    --myPurple:  #ae9ed9;
-    --myPurpleDark: #594787;
-    --myPurple3:  #7963b1;
-    --myPurple2:  #4a4fb0;
-}
 
-
-
-
-
-@media screen and (max-width: 1000px)
-{
-    .header
-    {
-        flex-flow: wrap column;
-    }
-    #nav-menu1
-    {
-        display: flex;
-        /* justify-content: center; */
-    }
-    #nav-menu1 a
-    {   
-        margin: 0px -10px;
-        font-size: 18px;
-    }
-    .welcomeText1, .welcomeText2
-    {
-        margin-top: 30px;
-        font-size: 25px;
-    }
-    #projTitle0, #projTitle2, #projTitle3, #projTitle4, #projTitle5, #projTitle6,#projTitle7
-    {
-        font-size: 20px;
-    }
-    .projDesc1
-    {
-        font-size: 14px;
-    }
-}
-
-
-
-
-
-@media screen and (max-width: 680px)
-{
-    .header
-    {
-        flex-flow: wrap column;
-    }
-    #nav-menu1 a
-    {   
-        margin: 0px -10px;
-        font-size: 16px;
-    }
-    .welcomeText1, .welcomeText2
-    {
-        margin-top: 30px;
-        font-size: 22px;
-    }
-    #projTitle0, #projTitle2, #projTitle3, #projTitle4, #projTitle5, #projTitle6,#projTitle7
-    {
-        font-size: 15px;
-    }
-    .projDesc1
-    {
-        font-size: 12px;
-    }
-}
-
-
-
-
-
-@media screen and (max-width: 500px)
-{
-    .myimage
-    {
-        width: 350px;
-    }
-    .researchMenu
-    {
-        display: none;
-    }
-}
-
-
-
-
-
-.header
-{
-    background-image: linear-gradient(to right,var(--myPurpleDark), var(--myPurple),mediumpurple, var(--myPurpleDark));
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* z-index: 5; */
-}
-#designation
-{
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 0px 20px;
-    margin: 10px 0px;
-    font-family: 'Comic Sans MS','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#nav-menu1
-{
-    font-size: 20px;
-    margin: 10px 0px;
-}
-#nav-menu1 a
-{
-    color: white;
-    text-decoration: none;
-    padding: 0px 20px;
-    font-family: 'Comic Sans MS','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#nav-menu1 a:hover
-{
-    color: aqua;
-    text-decoration: underline;
-}
-
-
-
-
-
-.welcomeText
-{
-    padding: 110px 20px 5px;
-    font-size: 30px;
-    text-align: center;
-}
-.welcomeText1
-{
-    color: var(--myPurple3);
-    font-family: 'Comic Sans MS', 'Franklin Gothic Medium', Arial, sans-serif;
-}
-.welcomeText2
-{
-    color: var(--myPurple3);
-    font-family: 'Gabriola', 'Comic Sans MS', Arial, sans-serif;
-    margin: 40px auto;
-}
-
-
-
-
-
-.information
-{
-    background-color: #d3caf2;
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-}
-.myimage
-{
-    height: 300px;
-    border-radius: 10px;
-    border: 5px solid var(--myPurpleDark);
-    margin-bottom: 40px;
-}
-.aboutMe
-{
-    width: auto;
-    border: 10px double var(--myPurple3);
-    border-radius: 30px 30px;
-    display: flex;
-    padding: 10px 20px 20px;
-    text-align: justify;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', Arial, serif;
-}
-.AMlegend
-{
-    font-size: 30px;
-    padding: 0px 10px;
-    width: inherit;
-    font-style: italic;
-    font-weight: bold;
-}
-.AMlabel
-{
-    font-size: 20px;
-}
-
-
-
-
-
-
-.cardContainer
-{
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    /* align-items: center; */
-    background-color: var(--myPurple);
-}
-.card1
-{
-    background-color: thistle;
-    width: 380px;
-    height: 580px;
-    margin: 30px 20px;
-    box-sizing: border-box;
-    box-shadow: 3px 3px 4px black;
-    border-radius: 10px;
-}
-.card1:hover
-{   
-    box-shadow: 6px 6px 4px white;
-}
-.cardImg1
-{
-    border: 3px solid;
-    border-radius: 50%;
-    display: block;
-    margin: 10px auto;
-    height: 70px;
-    width: 70px;
-}
-.cardBody1
-{
-    box-sizing: border-box;
-}
-.cardTitle1
-{
-    background-color: black;
-    color: thistle;
-    font-size: 25px;
-    text-align: center;
-    padding: 10px 5px;
-    font-weight: bold;
-}
-.cardDesc1
-{
-    margin: 0px 10px;
-    padding: 10px 0px 0px 20px;
-}
-.cardDesc1 li
-{
-    font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif, Arial, sans-serif;
-}
-.cardDesc1 hr
-{
-    margin: 10px 0px;
-}
-.skillNames1{
-    width: 100px;
-}
-.skillProg1{
-    margin: 0px 5px;
-    width: 200px;
-    height: 10px;
-    background-color:  #988cb9 ;
-    display: block;
-    border-radius: 10px;
-}
-.skillProg2{
-    width: 40px;
-    height: 10px;
-    background-image: linear-gradient(to right,var(--myPurpleDark),var(--myPurple2),var(--myPurpleDark));
-    display: block;
-    border-radius: 10px;
-}
-.skillProg3{
-    width: 120px;
-    height: 10px;
-    background-image: linear-gradient(to right,var(--myPurpleDark),var(--myPurple2),var(--myPurpleDark));
-    display: block;
-    border-radius: 10px;
-}
-.skillProg4{
-    width: 160px;
-    height: 10px;
-    background-image: linear-gradient(to right,var(--myPurpleDark),var(--myPurple2),var(--myPurpleDark));
-    display: block;
-    border-radius: 10px;
-}
-.skillProg34{
-    width: 140px;
-    height: 10px;
-    background-image: linear-gradient(to right,var(--myPurpleDark),var(--myPurple2),var(--myPurpleDark));
-    display: block;
-    border-radius: 10px;
-}
-
-
-
-
-
-.projects
-{
-    background-color: var(--myPurpleDark);
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-flow: wrap column;
-    justify-content: center;
-    align-items: center;
-}
-.projects h2
-{
-    font-size: 40px;
-    font-style: italic;
-    text-align: center;
-    margin: 30px auto;
-    border-bottom: 5px dotted white;
-    width: 300px;
-    font-weight: bold;
-    font-family: 'Gabriola', 'Comic Sans MS', Arial, sans-serif;
-}
-.proj1
-{
-    background-color: #d3caf2;
-}
-.projTitle1
-{
-    background-color: var(--myPurpleDark);
-    font-size: 25px;
-    text-align: center;
-    padding: 10px 5px;
-    font-weight: bold;
-    margin-top: 20px;
-}
-.projTitle1:hover
-{
-    text-decoration: underline;
-    text-decoration-color: aqua;
-}
-
-.projDesc1
-{
-    color: black;
-    margin: 0px 20px;
-    padding: 20px 20px 0px;
-    display: none;
-}
-.gallery
-{
-    width: 100%;
-}
-.gallery-container
-{
-    align-items: center;
-    display: flex;
-    height: 500px;
-    margin: 0px auto;
-    max-width: 100%;
-    position: relative;
-}
-.gallery-item 
-{
-    height: 250px;
-    opacity: 0;
-    position: absolute;
-    transition: all 0.3s ease-in-out;
-    width: 20%;
-    z-index: 0;
-}
-.gallery-item-1 
-{
-    left: 15%;
-    opacity: .4;
-    transform: translateX(-50%);
-}
-.gallery-item-2, .gallery-item-4 
-{
-    height: 350px;
-    opacity: 1;
-    width: 30%;
-    z-index: 1;
-}
-.gallery-item-2 
-{
-    left: 30%;
-    transform: translateX(-50%);
-}
-.gallery-item-3 
-{
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
-    height: 450px;
-    opacity: 1;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50%;
-    z-index: 2;
-}
-.gallery-item-4 
-{
-    left: 70%;
-    transform: translateX(-50%);
-}
-.gallery-item-5 
-{
-    left: 85%;
-    opacity: .4;
-    transform: translateX(-50%);
-}
-.gallery-controls
-{
-    display: flex;
-    justify-content: center;
-    margin: 30px 0;
-}
-.gallery-controls button
-{
-    background-color: transparent;
-    color: white;
-    border: 0;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 0 20px;
-    padding: 0 12px;
-    text-transform: capitalize;
-}
-.gallery-controls button:focus
-{
-    outline: none;
-}
-.gallery-controls-previous
-{
-    position: relative;
-}
-.gallery-controls-previous::before
-{
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    content: '';
-    display: inline-block;
-    height: 4px;
-    left: -10px;
-    padding: 2px;
-    position: absolute;
-    top: 0;
-    margin-top: 9px;
-    transform: rotate(135deg) translateY(-50%);
-    transition: left 0.15s ease-in-out;
-    width: 5px;
-}
-.gallery-controls-previous:hover::before
-{
-    left: -18px;
-}
-.gallery-controls-next
-{
-    position: relative;
-}
-.gallery-controls-next::before
-{
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    content: '';
-    display: inline-block;
-    height: 5px;
-    padding: 2px;
-    position: absolute;
-    right: -10px;
-    top: 50%;
-    margin-top: 2px;
-    transform: rotate(-45deg) translateY(-50%);
-    transition: right 0.15s ease-in-out;
-    width: 5px;
-}
-.gallery-controls-next:hover::before
-{
-    right: -18px;
-}
-.gallery-nav
-{
-    bottom: -15px;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    position: absolute;
-    width: 100%;
-}
-.gallery-nav li
-{
-    background: #ccc;
-    border-radius: 50%;
-    height: 10px;
-    margin: 0 16px;
-    width: 10px;
-}
-.gallery-nav li.gallery-item-selected
-{
-    background: #555;
-}
-.gallery-item-3 .projDesc1
-{
-    display: block;
-    animation: cssAnimation 0s 0.5s forwards;
-    visibility: hidden;
-}
-@keyframes cssAnimation {
-    to   { visibility: visible; }
-  }
-
-
-.research
-{
-    padding: 30px 50px;
-    text-align: justify;
-    box-sizing: border-box;
-    float: left;
-    font-size: 16px;
-    color: #594787;
-}
-.research h2
-{
-    font-size: 40px;
-    font-style: italic;
-    text-align: center;
-    margin: 0px auto 30px;
-    border-top: 5px double var(--myPurpleDark);
-    border-bottom: 5px double var(--myPurpleDark);
-    border-radius: 50px;
-    width: 300px;
-    font-weight: bold;
-    font-family: 'Gabriola', 'Comic Sans MS', Arial, sans-serif;
-}
-.research h4
-{
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 7px;
-    font-family: 'Comic Sans MS', Arial, sans-serif;
-}
-.researchTitle:hover
-{
-    color: aqua;
-    text-decoration: underline;
-}
-
-
-
-
-
-.certificate
-{
-    /* background-color: var(--myPurpleDark); */
-    background-color: #392f67;
-    display: flex;
-    align-items: center;
-    flex-flow: wrap row;
-    justify-content: center;
-    align-items: center;
-}
-#certiContainer{
-    padding: 10% 0%;
-    font-family: 'Comic Sans MS', Arial, sans-serif;
-}
-.certificate h2
-{
-    font-size: 40px;
-    font-style: italic;
-    text-align: center;
-    margin: 0px auto 40px;
-    border-bottom: 5px dotted white;
-    width: 300px;
-    font-weight: bold;
-    font-family: 'Gabriola', 'Comic Sans MS', Arial, sans-serif;
-}
-.carousel-item{
-    text-align: center;
-    font-style: italic;
-}
-
-.certiContainer-img{
-    width: 75%;
-    height: 50%;
-}
-
-.carousel-indicators{
-    bottom: -40px;
-}
-
-
-
-
-
-.contactInfo
-{
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: center;
-    align-items: center;
-    background-color:  #8b7fbe;
-    color: white;
-    font-weight: bold;
-}
-.contactInfo h2
-{
-    padding: 30px 50px 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-table
-{
-    margin: 0px auto 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
-table td
-{
-    padding: 0px 10px;
-}
-.icon1
-{
-    color: var(--myPurpleDark);
-}
-
-
-
-
-
-.contactMail
-{
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: center;
-    align-items: center;
-    background-color:  #d3caf2;
-    text-align: center;
-}
-.contactMail h2
-{
-    padding: 30px 50px 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-#name, #email, #msg
-{
-    width: 100%;
-    border: none;
-    padding: 15px 7px;
-    margin: 7px auto;
-    font-size: 15px;
-    font-family: 'Times New Roman', Arial, serif;
-    text-align: center;
-    border: 2px solid var(--myPurpleDark);
-}
-#name:focus, #email:focus, #msg:focus
-{
-    outline: none;
-    border: 3px solid var(--myPurpleDark);
-}
-#name, #email
-{
-    height: 20px;
-}
-#msg
-{
-    resize: none;
-}
-#send, #reset
-{
-    height: 30px;
-    width: 100px;
-    border: none;
-    border: 2px solid var(--myPurpleDark);
-    background-color: white;
-    padding: 0px 5px;
-    margin: 10px 20px 30px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Arial, serif;
-}
-#send:hover, #reset:hover
-{
-    color: white;
-    background-color: var(--myPurpleDark);
-}
-
-
-
-
-
-.moreContactInfo
-{
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: center;
-    align-items: center;
-}
-.moreContactInfo h4
-{
-    padding: 30px 50px 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-.moreContact
-{
-    text-align: center;
-}
 .icon2
 {
     height: 45px;
@@ -1500,5 +791,90 @@ table td
     color: white;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
->>>>>>> b6c4ee77b0bdca3a8c23cce70055fc6da6edeadc
+
+.icon2
+{
+    height: 45px;
+    width: 45px;
+    border: none;
+    margin: 0px 20px 30px;
+    border: 1px solid var(--myPurpleDark);
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+.icon2 i
+{
+    transform: rotate(-45deg);
+    color: var(--myPurpleDark);
+}
+
+.icon2:hover
+{
+    border: 2px solid var(--myPurpleDark);
+    transform: scale(1.2) rotate(45deg);
+}
+.icon2:focus
+{
+    outline: none;
+}
+
+
+
+
+
+.footer
+{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: var(--myPurpleDark);
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.icon2
+{
+    height: 45px;
+    width: 45px;
+    border: none;
+    margin: 0px 20px 30px;
+    border: 1px solid var(--myPurpleDark);
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+.icon2 i
+{
+    transform: rotate(-45deg);
+    color: var(--myPurpleDark);
+}
+
+.icon2:hover
+{
+    border: 2px solid var(--myPurpleDark);
+    transform: scale(1.2) rotate(45deg);
+}
+.icon2:focus
+{
+    outline: none;
+}
+
+
+
+
+
+.footer
+{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: var(--myPurpleDark);
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
