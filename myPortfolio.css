@@ -86,7 +86,6 @@
     {
         display: none;
     }
-
 }
 
 
@@ -735,7 +734,10 @@ table td
 
 .footer
 {
-    height: 40px;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
     padding: 10px 0px;
     text-align: center;
     background-color: var(--myPurpleDark);
