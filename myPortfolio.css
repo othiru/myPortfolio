@@ -96,7 +96,7 @@
     }
     .projDesc1 hr
     {
-        margin: 0px 0px;
+        margin: 1px 0px;
     }
 }
 
@@ -253,6 +253,7 @@
 }
 .cardDesc1
 {
+    box-sizing: border-box;
     margin: 0px 10px;
     padding: 10px 0px 0px 20px;
 }
@@ -264,51 +265,19 @@
 {
     margin: 10px 0px;
 }
-.cardDesc1 table
+.progress
 {
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    align-items: center;
-}
-.skillNames1{
-    width: 100px;
-}
-.skillProg1{
-    margin: 0px 5px;
     width: 200px;
     height: 10px;
     background-color:  #988cb9 ;
-    display: block;
-    border-radius: 10px;
 }
-.skillProg2{
-    width: 40px;
-    height: 10px;
+.progress-bar
+{
     background-image: linear-gradient(to right,var(--myPurpleDark),var(--myPurple2),var(--myPurpleDark));
-    display: block;
-    border-radius: 10px;
+    border-radius: 10px;  
 }
-.skillProg3{
-    width: 120px;
-    height: 10px;
-    background-image: linear-gradient(to right,var(--myPurpleDark),var(--myPurple2),var(--myPurpleDark));
-    display: block;
-    border-radius: 10px;
-}
-.skillProg4{
-    width: 160px;
-    height: 10px;
-    background-image: linear-gradient(to right,var(--myPurpleDark),var(--myPurple2),var(--myPurpleDark));
-    display: block;
-    border-radius: 10px;
-}
-.skillProg34{
-    width: 140px;
-    height: 10px;
-    background-image: linear-gradient(to right,var(--myPurpleDark),var(--myPurple2),var(--myPurpleDark));
-    display: block;
-    border-radius: 10px;
+.skillNames1{
+    width: 90px;
 }
 
 
