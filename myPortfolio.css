@@ -82,6 +82,10 @@
 
 @media screen and (max-width: 500px)
 {
+    .myimage
+    {
+        width: 350px;
+    }
     .researchMenu
     {
         display: none;
@@ -164,10 +168,6 @@
 }
 .myimage
 {
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    align-items: center;
     height: 300px;
     border-radius: 10px;
     border: 5px solid var(--myPurpleDark);
