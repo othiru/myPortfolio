@@ -13,6 +13,8 @@
 @font-face {
     font-family: FontComic;
     src: url(LDFComicSans.ttf);
+}
+@font-face {
     font-family: FontGabriola;
     src: url(gabriola\ Font\ Download.ttf);
 }
@@ -89,6 +91,10 @@
     .myimage
     {
         width: 350px;
+    }
+    .cardContainer
+    {
+        flex-direction: column;
     }
     .researchMenu
     {
