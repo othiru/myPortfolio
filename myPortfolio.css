@@ -92,12 +92,6 @@
     {
         width: 350px;
     }
-    .cardDesc1 ul
-    {
-        display: flex;
-        flex-flow: wrap column;
-        justify-content: center;
-    }
     #cardTitle1
     {
         font-size: 22px;
@@ -244,6 +238,10 @@
     box-sizing: border-box;
     box-shadow: 3px 3px 4px black;
     border-radius: 10px;
+}
+#skillsCard1
+{
+    width: 370px;
 }
 .card1:hover
 {   
