@@ -92,6 +92,10 @@
     {
         width: 350px;
     }
+    #skillsCard1
+    {
+        width: 360px;
+    }
     #cardTitle1
     {
         font-size: 22px;
@@ -239,10 +243,6 @@
     box-shadow: 3px 3px 4px black;
     border-radius: 10px;
 }
-/* #skillsCard1
-{
-    width: 370px;
-} */
 .card1:hover
 {   
     box-shadow: 6px 6px 4px white;
