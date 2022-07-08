@@ -10,7 +10,12 @@
     --myPurple3:  #7963b1;
     --myPurple2:  #4a4fb0;
 }
-
+@font-face {
+    font-family: FontComic;
+    src: url(COMIC.ttf);
+    font-family: FontGabriola;
+    src: url(gabriola\ Font\ Download.ttf);
+}
 
 
 
@@ -24,7 +29,6 @@
     #nav-menu1
     {
         display: flex;
-        /* justify-content: center; */
     }
     #nav-menu1 a
     {   
@@ -111,7 +115,7 @@
     font-weight: bold;
     padding: 0px 20px;
     margin: 10px 0px;
-    font-family: 'Comic Sans MS','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: FontComic ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #nav-menu1
 {
@@ -123,7 +127,7 @@
     color: white;
     text-decoration: none;
     padding: 0px 20px;
-    font-family: 'Comic Sans MS','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: FontComic,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #nav-menu1 a:hover
 {
@@ -144,12 +148,12 @@
 .welcomeText1
 {
     color: var(--myPurple3);
-    font-family: 'Comic Sans MS', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-family: FontComic, 'Franklin Gothic Medium', Arial, sans-serif;
 }
 .welcomeText2
 {
     color: var(--myPurple3);
-    font-family: 'Gabriola', 'Comic Sans MS', Arial, sans-serif;
+    font-family: FontGabriola, 'Comic Sans MS', Arial, sans-serif;
     margin: 40px auto;
 }
 
@@ -321,7 +325,7 @@
     border-bottom: 5px dotted white;
     width: 300px;
     font-weight: bold;
-    font-family: 'Gabriola', 'Comic Sans MS', Arial, sans-serif;
+    font-family: FontGabriola, FontComic, Arial, sans-serif;
 }
 .proj1
 {
@@ -532,14 +536,14 @@
     border-radius: 50px;
     width: 300px;
     font-weight: bold;
-    font-family: 'Gabriola', 'Comic Sans MS', Arial, sans-serif;
+    font-family: FontGabriola, FontComic, Arial, sans-serif;
 }
 .research h4
 {
     font-size: 18px;
     font-weight: bold;
     margin-top: 7px;
-    font-family: 'Comic Sans MS', Arial, sans-serif;
+    font-family: FontComic, Arial, sans-serif;
 }
 .researchTitle:hover
 {
@@ -563,7 +567,7 @@
 }
 #certiContainer{
     padding: 10% 0%;
-    font-family: 'Comic Sans MS', Arial, sans-serif;
+    font-family: FontComic, Arial, sans-serif;
 }
 .certificate h2
 {
@@ -574,7 +578,7 @@
     border-bottom: 5px dotted white;
     width: 300px;
     font-weight: bold;
-    font-family: 'Gabriola', 'Comic Sans MS', Arial, sans-serif;
+    font-family: FontGabriola, FontComic, Arial, sans-serif;
 }
 .carousel-item{
     text-align: center;
