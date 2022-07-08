@@ -95,6 +95,19 @@
     .cardContainer
     {
         flex-direction: column;
+        justify-content: center;
+    }
+    #cardTitle1
+    {
+        font-size: 22px;
+    }
+    .cardDesc1 p
+    {
+        font-size: 15px;
+    }
+    .skillsTable
+    {
+        font-size: 15px;
     }
     .researchMenu
     {
@@ -260,16 +273,31 @@
 .cardDesc1
 {
     box-sizing: border-box;
-    margin: 0px 10px;
-    padding: 10px 0px 0px 20px;
 }
 .cardDesc1 li
 {
+    margin: 10px 10px 10px 40px;
     font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif, Arial, sans-serif;
+}
+.cardDesc1 p
+{
+    margin: 0px 40px;
 }
 .cardDesc1 hr
 {
     margin: 10px 0px;
+}
+.skillsTable
+{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hotpink;
+}
+.skillsTable
+{
+    margin: 0px 40px;
 }
 .progress
 {
