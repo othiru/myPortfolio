@@ -50,6 +50,18 @@
     {
         font-size: 14px;
     }
+    .cardDesc1 p
+    {
+        font-size: 14px;
+    }
+    .skillsTable
+    {
+        font-size: 14px;
+    }
+    .progress
+    {
+        height: 9px;
+    }
 }
 
 
@@ -88,6 +100,10 @@
 
 @media screen and (max-width: 500px)
 {
+    .hiddenMenu
+    {
+        display: none;
+    }
     .myimage
     {
         width: 350px;
@@ -98,15 +114,15 @@
     }
     .cardDesc1 p
     {
-        font-size: 15px;
+        font-size: 13px;
     }
     .skillsTable
     {
-        font-size: 15px;
+        font-size: 13px;
     }
-    .researchMenu
+    .progress
     {
-        display: none;
+        height: 8px;
     }
     .projDesc1 hr
     {
@@ -233,7 +249,7 @@
 {
     background-color: thistle;
     width: 380px;
-    height: 580px;
+    height: 600px;
     margin: 30px 0px;
     box-sizing: border-box;
     box-shadow: 3px 3px 4px black;
@@ -296,11 +312,13 @@
     justify-content: center;
     align-items: center;
 }
+
 .progress
 {
     width: 180px;
     height: 10px;
     background-color:  #988cb9 ;
+    border-radius: 10px; 
 }
 .progress-bar
 {
@@ -535,6 +553,7 @@
 }
 .research h2
 {
+    display: block;
     font-size: 40px;
     font-style: italic;
     text-align: center;
@@ -565,7 +584,6 @@
 
 .certificate
 {
-    /* background-color: var(--myPurpleDark); */
     background-color: #392f67;
     display: flex;
     align-items: center;
