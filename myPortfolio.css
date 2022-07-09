@@ -544,16 +544,18 @@
 
 .research
 {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
     padding: 30px 50px;
     text-align: justify;
     box-sizing: border-box;
-    float: left;
     font-size: 16px;
     color: #594787;
 }
 .research h2
 {
-    display: block;
     font-size: 40px;
     font-style: italic;
     text-align: center;
@@ -586,7 +588,6 @@
 {
     background-color: #392f67;
     display: flex;
-    align-items: center;
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
