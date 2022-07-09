@@ -106,7 +106,7 @@
     }
     .myimage
     {
-        width: 350px;
+        width: 330px;
     }
     #cardTitle1
     {
@@ -302,17 +302,16 @@
 {
     display: flex;
     flex-flow: wrap row;
-    justify-content: space-between;
-    margin: 0px 40px;
+    justify-content: center;
 }
 .skillsTable tr
 {
     display: flex;
     flex-flow: wrap row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 300px;
 }
-
 .progress
 {
     width: 180px;
@@ -324,9 +323,6 @@
 {
     background-image: linear-gradient(to right,var(--myPurpleDark),var(--myPurple2),var(--myPurpleDark));
     border-radius: 10px;  
-}
-.skillNames1{
-    width: 90px;
 }
 
 
