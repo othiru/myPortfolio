@@ -249,7 +249,7 @@
 {
     background-color: thistle;
     width: 380px;
-    height: 600px;
+    height: 670px;
     margin: 30px 0px;
     box-sizing: border-box;
     box-shadow: 3px 3px 4px black;
@@ -293,6 +293,7 @@
 .cardDesc1 p
 {
     margin: 0px 40px;
+    font-size: 14px;
 }
 .cardDesc1 hr
 {
@@ -311,6 +312,10 @@
     justify-content: space-between;
     align-items: center;
     width: 300px;
+}
+.skillNames1
+{
+    font-size: 14px;
 }
 .progress
 {
@@ -606,6 +611,7 @@
 .carousel-item{
     text-align: center;
     font-style: italic;
+    min-width: 400px;
 }
 
 .certiContainer-img{
